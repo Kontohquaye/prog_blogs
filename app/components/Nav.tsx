@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import Logo from "../images/logo.png";
 import ThemeButton from "./ThemeButton";
 // import dynamic from 'next/dynamic'
@@ -9,15 +10,17 @@ import ThemeButton from "./ThemeButton";
 const Nav = () => {
   return (
     <div className="flex items-center justify-between website pt-3">
-      <div className="flex items-center">
-        <Image
-          src={Logo}
-          placeholder="blur"
-          width={40}
-          height={40}
-          alt="logo"
-        />
-        <h1 className="font-black pl-1 text-lg">PBlogs</h1>
+      <div>
+        <Link href="/" className="flex items-center">
+          <Image
+            src={Logo}
+            placeholder="blur"
+            width={40}
+            height={40}
+            alt="logo"
+          />
+          <h1 className="font-black pl-1 text-lg">PBlogs</h1>
+        </Link>
       </div>
 
       <div className="flex items-center justify-evenly w-1/4">

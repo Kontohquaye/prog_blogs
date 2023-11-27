@@ -18,6 +18,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="light" style={{ colorScheme: "light" }}>
+      <link rel="icon" href="./favicon.ico" sizes="any" />
       <body className={gothic.className}>
         <Provider>
           <div className="main">

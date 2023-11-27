@@ -1,0 +1,52 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "Sample Post Title",
+      "image": "/laptop.jpg",
+      "body": "Lorem ipsum dolor sit amet consectetur adipiscing elit neque, consequat mattis erat mi tristique metus vestibulum semper, natoque interdum venenatis tellus nunc felis fringilla. Mollis viverra tempor rhoncus lacus pretium, commodo porttitor suspendisse blandit. Mi vitae mollis blandit conubia sem potenti cras fusce urna tellus lacinia, congue lobortis class interdum dapibus nibh augue eu molestie laoreet odio vulputate, ligula pharetra platea ridiculus velit dis semper nisi tincidunt scelerisque. Eu lectus cum justo hendrerit turpis integer convallis, cubilia mi augue ridiculus dictumst fames orci nascetur, enim mattis euismod mauris scelerisque platea. Habitant nullam pretium augue phasellus mauris venenatis nostra hac, varius nisl tincidunt ligula fusce nulla aliquam, per commodo leo senectus potenti non feugiat. Per ad maecenas ultrices morbi erat sed dapibus at luctus consequat rutrum neque venenatis, dis malesuada netus semper tristique eleifend imperdiet quam tincidunt vestibulum justo. Velit curabitur suscipit massa tincidunt dictumst eget etiam ad eleifend urna sapien, tortor senectus cum leo rhoncus convallis porttitor sollicitudin parturient. Class suscipit justo urna ante metus habitant placerat, eget proin consequat litora phasellus magna dignissim mauris, fames ligula per enim turpis luctus. Facilisis ultrices congue mus et dictum tempor lacinia aliquet, senectus non leo suspendisse in torquent mauris habitasse, netus platea dictumst taciti rhoncus nunc cubilia.Nisi hendrerit arcu vehicula dis himenaeos commodo lectus convallis hac nam sociis, rhoncus aenean cursus ut dapibus integer dignissim et donec proin, suscipit laoreet urna feugiat montes nullam aptent sed enim lacinia. Accumsan vel molestie posuere pharetra lectus potenti dictum vehicula porttitor, congue mauris proin feugiat sem habitasse quisque velit, lacus phasellus netus conubia penatibus odio ad venenatis. Sagittis ante consequat mus ut lobortis nostra nisl sapien, magnis fringilla rutrum cursus venenatis feugiat velit auctor, morbi pulvinar neque suscipit fermentum quisque ornare. Lacinia sociis posuere a morbi ac dictum, curabitur massa sed tortor praesent inceptos, pellentesque condimentum sociosqu et quis.",
+      "date": "2023-11-27T12:00:00Z",
+      "user": "random_user_id_123",
+      "author": {
+        "name": "John Doe",
+        "profileImage": "/logo.png"
+      }
+    },
+    {
+      "id": "2",
+      "title": "Mind Tree",
+      "image": "/webdesign.jpg",
+      "body": "Lorem ipsum dolor sit amet consectetur adipiscing elit neque, consequat mattis erat mi tristique metus vestibulum semper, natoque interdum venenatis tellus nunc felis fringilla. Mollis viverra tempor rhoncus lacus pretium, commodo porttitor suspendisse blandit. Mi vitae mollis blandit conubia sem potenti cras fusce urna tellus lacinia, congue lobortis class interdum dapibus nibh augue eu molestie laoreet odio vulputate, ligula pharetra platea ridiculus velit dis semper nisi tincidunt scelerisque. Eu lectus cum justo hendrerit turpis integer convallis, cubilia mi augue ridiculus dictumst fames orci nascetur, enim mattis euismod mauris scelerisque platea. Habitant nullam pretium augue phasellus mauris venenatis nostra hac, varius nisl tincidunt ligula fusce nulla aliquam, per commodo leo senectus potenti non feugiat. Per ad maecenas ultrices morbi erat sed dapibus at luctus consequat rutrum neque venenatis, dis malesuada netus semper tristique eleifend imperdiet quam tincidunt vestibulum justo. Velit curabitur suscipit massa tincidunt dictumst eget etiam ad eleifend urna sapien, tortor senectus cum leo rhoncus convallis porttitor sollicitudin parturient. Class suscipit justo urna ante metus habitant placerat, eget proin consequat litora phasellus magna dignissim mauris, fames ligula per enim turpis luctus. Facilisis ultrices congue mus et dictum tempor lacinia aliquet, senectus non leo suspendisse in torquent mauris habitasse, netus platea dictumst taciti rhoncus nunc cubilia.Nisi hendrerit arcu vehicula dis himenaeos commodo lectus convallis hac nam sociis, rhoncus aenean cursus ut dapibus integer dignissim et donec proin, suscipit laoreet urna feugiat montes nullam aptent sed enim lacinia. Accumsan vel molestie posuere pharetra lectus potenti dictum vehicula porttitor, congue mauris proin feugiat sem habitasse quisque velit, lacus phasellus netus conubia penatibus odio ad venenatis. Sagittis ante consequat mus ut lobortis nostra nisl sapien, magnis fringilla rutrum cursus venenatis feugiat velit auctor, morbi pulvinar neque suscipit fermentum quisque ornare. Lacinia sociis posuere a morbi ac dictum, curabitur massa sed tortor praesent inceptos, pellentesque condimentum sociosqu et quis.",
+      "date": "2023-11-27T12:00:00Z",
+      "user": "random_user_id_123",
+      "author": {
+        "name": "Ryan Doe",
+        "profileImage": "/logo.png"
+      }
+    },
+    {
+      "id": "3",
+      "title": "Sample ",
+      "image": "/laptop.jpg",
+      "body": "Lorem ipsum dolor sit amet consectetur adipiscing elit neque, consequat mattis erat mi tristique metus vestibulum semper, natoque interdum venenatis tellus nunc felis fringilla. Mollis viverra tempor rhoncus lacus pretium, commodo porttitor suspendisse blandit. Mi vitae mollis blandit conubia sem potenti cras fusce urna tellus lacinia, congue lobortis class interdum dapibus nibh augue eu molestie laoreet odio vulputate, ligula pharetra platea ridiculus velit dis semper nisi tincidunt scelerisque. Eu lectus cum justo hendrerit turpis integer convallis, cubilia mi augue ridiculus dictumst fames orci nascetur, enim mattis euismod mauris scelerisque platea. Habitant nullam pretium augue phasellus mauris venenatis nostra hac, varius nisl tincidunt ligula fusce nulla aliquam, per commodo leo senectus potenti non feugiat. Per ad maecenas ultrices morbi erat sed dapibus at luctus consequat rutrum neque venenatis, dis malesuada netus semper tristique eleifend imperdiet quam tincidunt vestibulum justo. Velit curabitur suscipit massa tincidunt dictumst eget etiam ad eleifend urna sapien, tortor senectus cum leo rhoncus convallis porttitor sollicitudin parturient. Class suscipit justo urna ante metus habitant placerat, eget proin consequat litora phasellus magna dignissim mauris, fames ligula per enim turpis luctus. Facilisis ultrices congue mus et dictum tempor lacinia aliquet, senectus non leo suspendisse in torquent mauris habitasse, netus platea dictumst taciti rhoncus nunc cubilia.Nisi hendrerit arcu vehicula dis himenaeos commodo lectus convallis hac nam sociis, rhoncus aenean cursus ut dapibus integer dignissim et donec proin, suscipit laoreet urna feugiat montes nullam aptent sed enim lacinia. Accumsan vel molestie posuere pharetra lectus potenti dictum vehicula porttitor, congue mauris proin feugiat sem habitasse quisque velit, lacus phasellus netus conubia penatibus odio ad venenatis. Sagittis ante consequat mus ut lobortis nostra nisl sapien, magnis fringilla rutrum cursus venenatis feugiat velit auctor, morbi pulvinar neque suscipit fermentum quisque ornare. Lacinia sociis posuere a morbi ac dictum, curabitur massa sed tortor praesent inceptos, pellentesque condimentum sociosqu et quis.",
+      "date": "2023-11-27T12:00:00Z",
+      "user": "random_user_id_123",
+      "author": {
+        "name": "Richard Appiah",
+        "profileImage": "/logo.png"
+      }
+    },
+    {
+      "id": "4",
+      "title": "New Post",
+      "image": "/laptop.jpg",
+      "body": "Lorem ipsum dolor sit amet consectetur adipiscing elit neque, consequat mattis erat mi tristique metus vestibulum semper, natoque interdum venenatis tellus nunc felis fringilla. Mollis viverra tempor rhoncus lacus pretium, commodo porttitor suspendisse blandit. Mi vitae mollis blandit conubia sem potenti cras fusce urna tellus lacinia, congue lobortis class interdum dapibus nibh augue eu molestie laoreet odio vulputate, ligula pharetra platea ridiculus velit dis semper nisi tincidunt scelerisque. Eu lectus cum justo hendrerit turpis integer convallis, cubilia mi augue ridiculus dictumst fames orci nascetur, enim mattis euismod mauris scelerisque platea. Habitant nullam pretium augue phasellus mauris venenatis nostra hac, varius nisl tincidunt ligula fusce nulla aliquam, per commodo leo senectus potenti non feugiat. Per ad maecenas ultrices morbi erat sed dapibus at luctus consequat rutrum neque venenatis, dis malesuada netus semper tristique eleifend imperdiet quam tincidunt vestibulum justo. Velit curabitur suscipit massa tincidunt dictumst eget etiam ad eleifend urna sapien, tortor senectus cum leo rhoncus convallis porttitor sollicitudin parturient. Class suscipit justo urna ante metus habitant placerat, eget proin consequat litora phasellus magna dignissim mauris, fames ligula per enim turpis luctus. Facilisis ultrices congue mus et dictum tempor lacinia aliquet, senectus non leo suspendisse in torquent mauris habitasse, netus platea dictumst taciti rhoncus nunc cubilia.Nisi hendrerit arcu vehicula dis himenaeos commodo lectus convallis hac nam sociis, rhoncus aenean cursus ut dapibus integer dignissim et donec proin, suscipit laoreet urna feugiat montes nullam aptent sed enim lacinia. Accumsan vel molestie posuere pharetra lectus potenti dictum vehicula porttitor, congue mauris proin feugiat sem habitasse quisque velit, lacus phasellus netus conubia penatibus odio ad venenatis. Sagittis ante consequat mus ut lobortis nostra nisl sapien, magnis fringilla rutrum cursus venenatis feugiat velit auctor, morbi pulvinar neque suscipit fermentum quisque ornare. Lacinia sociis posuere a morbi ac dictum, curabitur massa sed tortor praesent inceptos, pellentesque condimentum sociosqu et quis.",
+      "date": "2023-11-27T12:00:00Z",
+      "user": "random_user_id_123",
+      "author": {
+        "name": "John Doe",
+        "profileImage": "/logo.png"
+      }
+    }
+  ]
+}

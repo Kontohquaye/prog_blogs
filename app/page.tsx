@@ -1,8 +1,11 @@
+import { Suspense } from "react";
+import RecentPost from "./components/RecentPosts";
 import SearchBox from "./components/Search";
+import Loading from "./loading";
 
 export default function Home() {
   return (
-    <main className="website mt-5">
+    <main className="website mt-44">
       <section className="text-center">
         <h1 className="font-bold text-5xl">
           Discover and share
@@ -21,6 +24,11 @@ export default function Home() {
       {/* search */}
       <SearchBox />
       {/* post */}
+      <section className="mt-24">
+        <Suspense fallback={<Loading />}>
+          <RecentPost />
+        </Suspense>
+      </section>
     </main>
   );
 }
