@@ -13,6 +13,8 @@ const config: Config = {
         primary: "#104579",
         secondary: "#F0BC02",
         softDark: "#1f273a",
+        darktext: "#E6FAFC",
+        darkAccent: "#9CFC97",
       },
       fontFamily: {
         gothic: ["Gothic A1", "sans - serif"],

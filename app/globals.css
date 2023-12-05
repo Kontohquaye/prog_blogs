@@ -3,8 +3,22 @@
 @tailwind components;
 @tailwind utilities;
 
+.modal {
+  background-color: #000000;
+  opacity: 0.4;
+}
 .website {
   @apply max-w-[1200px] mx-auto;
+}
+
+.ql-editor.ql-blank::before {
+  color: #5e5e5e !important;
+  content: attr(data-placeholder);
+  font-style: italic;
+  left: 15px;
+  pointer-events: none;
+  position: absolute;
+  right: 15px;
 }
 
 .glassmorphism {
@@ -67,6 +81,30 @@
   100% {
     transform: rotate(360deg);
   }
+}
+
+@media screen and (min-width: 400px) {
+  .grid-blogs .blog .image-box img {
+    height: 250px;
+  }
+}
+
+.blog_body_modal {
+  height: 120px;
+  overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #e7e7e7;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 15px;
 }
 
 /* .green_gradient {

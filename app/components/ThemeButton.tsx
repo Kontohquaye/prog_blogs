@@ -19,9 +19,12 @@ const ThemeButton = () => {
   }, []);
   if (!mounted) return null;
   return (
-    <button onClick={handleTheme}>
+    <button
+      className="w-full sm:hover:bg-transparent sm:hover:text-secondary hover:bg-secondary  px-2 sm:px-0"
+      onClick={handleTheme}
+    >
       {theme === "light" ? (
-        <MdDarkMode className="font-black text-2xl" />
+        <MdDarkMode className="font-black text-2xl " />
       ) : (
         <CiLight className="font-black text-2xl" />
       )}

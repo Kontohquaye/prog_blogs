@@ -12,10 +12,10 @@ const SearchBox = () => {
     <div>
       <form
         onSubmit={handleSubmit}
-        className="bg-white rounded dark:bg-[#535151]  relative max-w-md mt-3 mx-auto flex items-center h-8"
+        className="bg-white rounded dark:bg-[#535151] w-[200px] sm:w-[28rem]  relative max-w-md mt-3 mx-auto flex items-center h-8"
       >
         <input
-          className="w-full pl-4 pr-7 shadow-lg dark:shadow-none text-sm h-full bg-transparent outline-none dark:text-white text-black"
+          className="w-full  pl-4 pr-7 shadow-lg dark:shadow-none text-sm h-full bg-transparent outline-none dark:text-white text-black"
           type="text"
           value={query ?? ""}
           placeholder="search by title"

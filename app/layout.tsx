@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Gothic_A1 } from "next/font/google";
+import { EdgeStoreProvider } from "./libs/edgestore";
 import "./globals.css";
 import Provider from "./components/ThemeProvider";
 import Nav from "./components/Nav";
@@ -13,8 +14,10 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
+  modal,
 }: {
   children: React.ReactNode;
+  modal: React.ReactNode;
 }) {
   return (
     <html lang="en" className="light" style={{ colorScheme: "light" }}>
@@ -26,7 +29,8 @@ export default function RootLayout({
           </div>
           <div>
             <Nav />
-            {children}
+            <EdgeStoreProvider>{children}</EdgeStoreProvider>
+            {modal}
           </div>
         </Provider>
       </body>
