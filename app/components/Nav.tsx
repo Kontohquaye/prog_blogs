@@ -5,6 +5,7 @@ import Logo from "../images/logo.png";
 import ThemeButton from "./ThemeButton";
 import { RiMenu2Line } from "react-icons/ri";
 import { useState } from "react";
+import Account from "./Account";
 // import dynamic from 'next/dynamic'
 
 // fix-2
@@ -14,7 +15,6 @@ const Nav = () => {
   const [showNav, setShowNav] = useState(false);
   return (
     <div className="sticky  top-0 bg-white dark:bg-black/40 p-2 z-10">
-      <div className="gradient" />
       <div className="flex items-center justify-between website pt-3 ">
         <div>
           <Link href="/" className="flex items-center">
@@ -45,17 +45,18 @@ const Nav = () => {
             }
           >
             <ThemeButton />
-            <p className="sm:ml-2 cursor-pointer hover:bg-secondary sm:hover:bg-transparent sm:hover:text-secondary  px-2 sm:px-0">
+            <p className="w-full sm:w-min sm:ml-2 cursor-pointer hover:bg-secondary sm:hover:bg-transparent sm:hover:text-secondary  px-2 sm:px-0">
               categories
             </p>
-            <Link href="/write" className="w-full">
+            <Link href="/write" className="w-full sm:w-min">
               <p className=" sm:ml-2 cursor-pointer hover:bg-secondary sm:hover:bg-transparent sm:hover:text-secondary  px-2 sm:px-0">
                 write
               </p>
             </Link>
-            <p className=" sm:ml-2 cursor-pointer sm:hover:text-secondary sm:hover:bg-transparent  hover:bg-secondary px-2 sm:px-0 w-full">
+            {/* <p className=" sm:ml-2 cursor-pointer sm:hover:text-secondary sm:hover:bg-transparent  hover:bg-secondary px-2 sm:px-0 w-full">
               login
-            </p>
+            </p> */}
+            <Account />
           </div>
         </div>
       </div>
