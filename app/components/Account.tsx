@@ -10,9 +10,9 @@ const Account = () => {
   };
 
   return (
-    <div className="content">
+    <div className="content w-full ">
       {session ? (
-        <div className="profile flex items-center">
+        <div className=" profile flex items-center  hover:bg-secondary sm:hover:bg-transparent sm:hover:text-secondary">
           <Image
             src={session?.user?.image ?? "/avatar.svg"}
             width={40}
@@ -22,7 +22,7 @@ const Account = () => {
           />
           <button
             onClick={handleSignOut}
-            className="sm:ml-2 cursor-pointer hover:bg-secondary sm:hover:bg-transparent sm:hover:text-secondary  px-2 sm:px-0"
+            className="sm:ml-2 cursor-pointer  px-2 sm:px-0"
           >
             signout
           </button>

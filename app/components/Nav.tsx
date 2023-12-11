@@ -14,7 +14,7 @@ import Account from "./Account";
 const Nav = () => {
   const [showNav, setShowNav] = useState(false);
   return (
-    <div className="sticky  top-0 bg-white dark:bg-black/40 p-2 z-10">
+    <div className="sticky  top-0 bg-white dark:bg-softDark p-2 z-10">
       <div className="flex items-center justify-between website pt-3 ">
         <div>
           <Link href="/" className="flex items-center">
@@ -40,16 +40,16 @@ const Nav = () => {
           <div
             className={
               showNav
-                ? "sm:items-center sm:justify-evenly flex sm:flex-row flex-col items-start justify-start gap-1 absolute right-0 top-full dark:bg-transparent   dark:border-gray-700 rounded-md  sm:rounded-none bg-white sm:bg-transparent sm:shadow-none  shadow-md dark:text-darktext font-semibold "
+                ? "w-72  sm:items-center sm:justify-evenly flex sm:flex-row flex-col items-start justify-start gap-1 absolute right-0 top-full dark:bg-softDark/70   dark:border-gray-700 rounded-md  sm:rounded-none bg-white sm:bg-transparent sm:shadow-none  shadow-md dark:text-darktext font-semibold "
                 : "items-center justify-evenly sm:flex  hidden dark:text-darktext font-semibold "
             }
           >
             <ThemeButton />
-            <p className="w-full sm:w-min sm:ml-2 cursor-pointer hover:bg-secondary sm:hover:bg-transparent sm:hover:text-secondary  px-2 sm:px-0">
+            <p className="w-full sm:w-min sm:ml-2 cursor-pointer hover:bg-secondary sm:hover:bg-transparent sm:hover:text-secondary  px-2 py-2 sm:py-0 sm:px-0">
               categories
             </p>
             <Link href="/write" className="w-full sm:w-min">
-              <p className=" sm:ml-2 cursor-pointer hover:bg-secondary sm:hover:bg-transparent sm:hover:text-secondary  px-2 sm:px-0">
+              <p className=" sm:ml-2 cursor-pointer hover:bg-secondary sm:hover:bg-transparent sm:hover:text-secondary  px-2 py-2 sm:py-0 sm:px-0">
                 write
               </p>
             </Link>

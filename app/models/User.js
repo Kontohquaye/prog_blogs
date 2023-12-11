@@ -9,9 +9,10 @@ const userSchema = new Schema(
       unique: true,
       required: true,
     },
-    name: {
+    username: {
       type: String,
-      required: false,
+      required: true,
+      default: "user",
     },
     profilePicture: {
       type: String,

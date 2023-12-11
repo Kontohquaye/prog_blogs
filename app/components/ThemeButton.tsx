@@ -20,7 +20,7 @@ const ThemeButton = () => {
   if (!mounted) return null;
   return (
     <button
-      className=" w-full sm:w-min sm:hover:bg-transparent sm:hover:text-secondary hover:bg-secondary  px-2 sm:px-0"
+      className=" w-full sm:w-min sm:hover:bg-transparent sm:hover:text-secondary hover:bg-secondary  px-2 py-2 sm:py-0 sm:px-0"
       onClick={handleTheme}
     >
       {theme === "light" ? (

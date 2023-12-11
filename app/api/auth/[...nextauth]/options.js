@@ -7,7 +7,7 @@ export const options = {
   providers: [
     GithubProvider({
       async profile(profile) {
-        // console.log("github-profile:", profile);
+        // console.log("github-profile:", profile.login);
         let userRole = "Github User";
         if (profile?.email === "ekontoh07@gmail.com") {
           userRole = "admin";
@@ -19,20 +19,23 @@ export const options = {
           const newUser = new User({
             email: profile.email,
             profilePicture: profile.avatar_url,
+            username: profile.login,
           });
           const savedUser = await newUser.save();
           return {
             ...profile,
             role: userRole,
             _id: savedUser._id.toString(),
-            image: profile.avatar_url,
+            image: savedUser.profilePicture,
+            username: savedUser.username,
           };
         }
         return {
           ...profile,
           role: userRole,
-          image: profile.avatar_url,
+          image: user.profilePicture,
           _id: user._id.toString(),
+          username: user.username,
         };
       },
       clientId: process.env.GITHUB_ID,
@@ -51,6 +54,7 @@ export const options = {
           const newUser = new User({
             email: profile.email,
             profilePicture: profile.picture,
+            username: profile.name,
           });
           const savedUser = await newUser.save();
           return {
@@ -58,7 +62,8 @@ export const options = {
             id: profile.sub,
             role: userRole,
             _id: savedUser._id.toString(),
-            image: profile.picture,
+            image: savedUser.profilePicture,
+            username: savedUser.username,
           };
         }
         return {
@@ -66,7 +71,8 @@ export const options = {
           id: profile.sub,
           role: userRole,
           _id: user._id.toString(),
-          image: profile.picture,
+          image: user.profilePicture,
+          username: user.username,
         };
       },
       clientId: process.env.GOOGLE_ID,

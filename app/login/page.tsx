@@ -26,7 +26,7 @@ const Login = () => {
               signIn("google");
             }}
           >
-            <FcGoogle className="text-3xl" /> <span>signIn with github</span>
+            <FcGoogle className="text-3xl" /> <span>signIn with google</span>
           </div>
           <div
             className="cursor-pointer flex items-center"
@@ -35,7 +35,7 @@ const Login = () => {
             }}
           >
             <VscGithub className="text-3xl" />
-            <span>signIn with google</span>
+            <span>signIn with github</span>
           </div>
         </form>
       </section>
